@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    height: 100vh;
+    width: 100vw;
+
+    background-color: beige;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#general {
+
+    height: 20em;
+    width: 20em;
+
+    background-color: grey;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info {
+    height: 5em;
+    width: 10em;
+
+    color: white;
+    background-color: green;
+}
+
+#square {
+    height: 10em;
+    width: 10em;
+
+}
+
+.off {
+    background-color: brown;
+
+}
+
+.on {
+    background-color: blue;
+}
+
+.mini-square {
+    height: 5em;
+    width: 5em;
+
+    margin: 2em;
+
+    background-color: cornflowerblue;
+}
